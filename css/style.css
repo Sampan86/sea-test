@@ -1,0 +1,29 @@
+body, div, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, button, input, textarea, table, thead, tbody, th, td, i, b, span, em, section, header, footer, aside, nav, menu, article, dialog, figure, hgroup { margin: 0; padding: 0; }
+section, header, footer, aside, nav, menu, article, dialog, figure, hgroup { display: block; }
+body { font-family: arial; font-size: 12px; background-color: #f3f4f4; color: #333; padding: 39px 0 55px 0; }
+ul, ol, li { list-style: none }
+a { text-decoration: none; }
+em, i { font-style: normal }
+img { border: 0 }
+input, textarea { outline: 0; resize: none; }
+.main { min-width: 320px; }
+.mt-8 { margin-top: 8px; }
+.mt-10 { margin-top: 10px; }
+.mt-12 { margin-top: 12px; }
+.col-title { height: 20px; padding: 6px 12px; line-height: 20px; font-size: 14px; }
+.red-btn { display: block; width: 100%; height: 40px; background-color: #ee5d86; border-radius: 4px; color: #fff; line-height: 40px; text-align: center; font-size: 16px; text-decoration: none; }
+.holl-red-btn { display: block; width: 100%; height: 38px; background-color: #f4f4f4; border: solid 1px #ee5d86; border-radius: 4px; color: #ee5d86; line-height: 38px; text-align: center; font-size: 16px; text-decoration: none; }
+.page-btn-area { margin-top: 20px; padding: 0 12px; }
+.hide { display: none; }
+
+/**  商品图片切换  **/
+.bannerSlider { position: relative; width: 100%; min-width: 300px; overflow: hidden; }
+.bannerSlider .slider { width: auto; background: #fff; }
+.bannerSlider .pic-list { min-width: 300px; }
+.bannerSlider .pic-list img { display: block; width: 100%; }
+.bannerSlider .clickArea { position: absolute; height: 15px; padding-top: 5px; bottom: 3px; left: 50%; line-height: 12px; text-align: center; overflow: hidden; }
+.bannerSlider .clickArea .btn { display: inline-block; width: 6px; height: 6px; background-color: #dcdcdc; margin: 0 2px; border-radius: 3px; cursor: pointer; }
+.bannerSlider .clickArea .btn.selected { background-color: #909090; }
+
+.audio-box { padding: 0 20px;}
+.audio-box audio { width: 100%;}
